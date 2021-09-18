@@ -1,7 +1,7 @@
 {
-  "name": "node-gcm",
+  "name": "@camdh/node-gcm",
   "description": "Easy interface for Google's Cloud Messaging service (now Firebase Cloud Messaging)",
-  "version": "1.0.5",
+  "version": "1.0.3",
   "author": "Marcus Farkas <toothlessgear@finitebox.com>",
   "contributors": [
     "Marcus Farkas <toothlessgear@finitebox.com>",
@@ -43,8 +43,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/ToothlessGear/node-gcm.git",
-    "web": "http://github.com/ToothlessGear/node-gcm"
+    "url": "http://github.com/CambridgeDigitalHealth/node-gcm.git",
+    "web": "http://github.com/CambridgeDigitalHealth/node-gcm"
   },
   "keywords": [
     "google",
@@ -69,6 +69,7 @@
     "test": "mocha test/**/*Spec.js"
   },
   "dependencies": {
+    "@camdh/https-proxy-agent": "^1.0.0",
     "debug": "^3.1.0",
     "lodash": "^4.17.21",
     "request": "^2.88.0"
@@ -84,9 +85,9 @@
     "node": ">= 4"
   },
   "bugs": {
-    "url": "https://github.com/ToothlessGear/node-gcm/issues"
+    "url": "https://github.com/CambridgeDigitalHealth/node-gcm/issues"
   },
-  "homepage": "https://github.com/ToothlessGear/node-gcm",
+  "homepage": "https://github.com/CambridgeDigitalHealth/node-gcm",
   "directories": {
     "test": "test"
   },
